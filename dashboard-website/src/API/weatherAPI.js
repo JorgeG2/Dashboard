@@ -1,11 +1,3 @@
-// const fetch = require("node-fetch");
-
-// fetch(
-//   "https://api.openweathermap.org/data/2.5/weather?lat=39.46381&lon=-74.51205&appid=0efff71c6e567b425f7def73acf43a25"
-// )
-//   .then((response) => response.json())
-//   .then((data) => console.log(data))
-//   .catch((error) => console.error("Error:", error));
 const fetch = require("node-fetch");
 
 async function getWeatherData() {
