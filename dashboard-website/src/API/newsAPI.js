@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const newsApiKey = process.env.REACT_APP_NEWS_API_KEY;
-
+// testing
 // const rata = await response.json();
 
 // let randomIndex = Math.floor(Math.random() * );
