@@ -1,5 +1,7 @@
 const fetch = require("node-fetch");
 
+const bibleApiKey = process.env.REACT_APP_BIBLE_API_KEY;
+
 const API_KEY = "80507ab8dcb312bef4bcbdd4805808a1";
 const BIBLE_ID = "592420522e16049f-01";
 const VERSE_ID = [

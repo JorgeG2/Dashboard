@@ -15,7 +15,7 @@ async function getNewsData() {
     }
 
     const data = await response.json();
-    return data.articles[0];
+    return data.articles[4];
   } catch (error) {
     console.error("Error:", error);
   }
